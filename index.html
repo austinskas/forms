@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="payment-form.css">
+    <title></title>
+  </head>
+  <body>
+
+
+
+  <form action="my-handling-form-page" method="post">
+  <h1>Payment form</h1>
+  Required fiellds are followed by* </br>
+</br>
+<h1> Contact information </h1>
+<fieldset>
+<legend>Title</legend>
+<ul>
+  <li>
+  <label for="title_1">
+  <input type="radio" checked id="soup" name="meal">
+  <label for="name"> Mister
+  </label>
+  </li>
+  <li><input type="radio" checked id="soup" name="meal">
+  <label for="name"> Miss
+  </label>
+</li>
+</ul>
+</fieldset>
+
+  <div>
+  <label for="name">Name:*</label>
+  <input type="text" id="name" name="user_name">
+</div>
+<div>
+<label for="mail"> E-mail:*</label>
+<input  type="email" id="mail" name="user_mail">
+</div>
+<div>
+  <label for="name">Password:*</label>
+  <input type="password" id="name" name="user_name">
+</div>
+
+<h1> Payment information </h1>
+<div>
+<label for="name">Card type:*</label>
+<select id="simple" name="simple">
+<option> Visa </option>
+<option> Mastercard </option>
+<option> American Express </option>
+</select>
+</div>
+<div>
+<label for="name"> Card number:* </label>
+<input type="text" id="name" name="user_name">
+</div>
+<div>
+<label for="name"> Expiration date:* </label>
+<input type="text" id="name" name="user_name">
+</div>
+formatted as mm/yy
+<div class="button">
+<button type="submit">Validate the payment </button>
+</div>
+</form>
+</body>
+</html>
